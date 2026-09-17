@@ -1,0 +1,1 @@
+De part les deux executions faites on retient que l'on peut exécuter un fichier autant de fois que l'on veut peut importe le nom de l'argument écris après -o, aussi que la compilation ne dépends pas de ce fichier.
