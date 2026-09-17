@@ -1,0 +1,1 @@
+En observant le fichier obtenu on remarque que sont extension est .o et en essayant de l'executer l'ordinateur nous demande de choisir une application ce qui n'est pas normal car le fichier devrait s'executer au travers du terminal. En annulant l'edition des liens, le fichier ne peut être finalisé et donc produit une erreur.
