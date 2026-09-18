@@ -1,6 +1,6 @@
-//pas de #include<cstdio>
+#include<cstdio>
 int main (){
-    Printf("Code sera corrigé"); //Mauvaise écriture de Printf
-    printf("Sera t'il bien corrigé?") //Aucune virgule
+    printf(" Code sera corrigé");
+    Printf("Sera t'il bien corrigé?");
     return 0;
 }
