@@ -1,1 +1,0 @@
- On comprends que une fois que le fichier exécutable est créer on n'a plus besoin du fichier .cpp qui a permis à sa création. On en déduit donc que l'éxecutable est une sorte de résultat indépendant. On peut le comparer à une maison obtenue à partir d'un plan précis.
