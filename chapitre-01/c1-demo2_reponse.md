@@ -1,1 +1,0 @@
-Pour construis un rectangle borné par des "#" il m'a fallut 11 lignes de codes. En sachant que j'inclus la ligne de la bilbiothèque et celle de retour.
