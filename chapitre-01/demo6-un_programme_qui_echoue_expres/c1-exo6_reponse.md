@@ -1,0 +1,1 @@
+Le texte issue du fichir sortie.txt compte 2034 lignes or nous n'avons rediger que 6 lignes pour le code bonjour.cpp; cet écart traduit le travail en background ue le préprocesseur effectue avant d'afficher le résultat à la fin (il s'agit du "printf("bonjour\n" et du reste du code)).
