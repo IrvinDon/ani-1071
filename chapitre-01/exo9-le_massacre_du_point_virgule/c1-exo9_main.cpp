@@ -16,7 +16,7 @@ int main (){
         printf("Entrez votre section de travail\n")
         scanf("%c",&section)
         if(quanty.machin2<799){
-            quanty.machin1=quanty.machin2*7500
+            quanty.machin1=quanty.machin2*7500/2
         }
     printf("Votre super prime est de %d\n",prix)
         printf("Entrez votre texte (puis appuyez sur Entrée)\n")
