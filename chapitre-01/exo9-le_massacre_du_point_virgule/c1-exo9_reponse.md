@@ -133,4 +133,4 @@ c1-exo9_main.cpp:28:10: error: expected ';' after return statement
 
 Du terminal on note un message particulier qui nous annonce une limite d'erreurs:
 fatal error: too many errors emitted, stopping now [-ferror-limit=]
-S'il n'y avait pas eut de limite, on saurait à  22 erreurs et la prochaine serait celle de la ligne.***
+S'il n'y avait pas eut de limite, on saurait à  22 erreurs et la prochaine serait celle de la ligne 25.***
