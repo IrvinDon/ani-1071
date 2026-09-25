@@ -37,7 +37,7 @@ PS C:\Users\PC> ./MS
 102030405060708090100
 En le faisant avec %6d on remarque que l'espace entre les chiffres est plus grand, on comprends donc que cette option a pour but de fournir une marge aux nombres qui seront affichés.
 **Esquisse avec l'usage de %6d:
-  1     2     3     4     5     6     7     8     9    10
+     1     2     3     4     5     6     7     8     9    10
      2     4     6     8    10    12    14    16    18    20
      3     6     9    12    15    18    21    24    27    30
      4     8    12    16    20    24    28    32    36    40
