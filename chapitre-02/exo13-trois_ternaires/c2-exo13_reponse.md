@@ -14,3 +14,12 @@ int main()
 
     return 0;
 }
+Et voici un exemple de compilation puis d'éxecution:
+clang++ k.cpp -o c2
+PS C:\Users\PC> ./c2               
+13
+90
+13
+90
+impair
+13 objets
