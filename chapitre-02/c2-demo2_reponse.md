@@ -10,12 +10,9 @@ Après modification du code en ajoutant les lignes suivantes:
             Rebond++;
             printf("%d Rebonds de  %fm!\n",Rebond ,hauteurMax);
              hauteurMax = 0;
-        
-        if( v < 0.1 )
-        {
-            break;
-        }
-        }
+             if (v<0.1){
+             break;
+             }
 Nous avons droit qu'à un seul rebond. De ce fait on ne peut vérifier si elle décroit vu qu'on n'a qu'une seule valeur..
 Ceci fut executer pour une hauteur de 400m: 
 ./game                              
