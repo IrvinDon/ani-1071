@@ -25,10 +25,10 @@ long long pgcd(long long a, long long b){
     return a;
 }
 long long ppcm(long long a, long long b){
-    if (a == 0 && b == 0){
+    if (a == 0 || b == 0){
         return 0;
     }
-    return a / pgcd(a, b) * b;
+    return (a / pgcd(a, b)) * b;
 }
 
 int main() {
