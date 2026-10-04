@@ -26,8 +26,8 @@ long long b;
 bool UnCouple = false;
     while (scanf("%lld %lld", &a, &b) == 2) {
         UnCouple = true;
-        printf("%lld", pgcd(a,b));
-        printf("%lld", ppcm(a,b));
+        printf("%lld\n", pgcd(a,b));
+        printf("%lld\n", ppcm(a,b));
     }
     if (!UnCouple){
         printf("AUCUN\n");
