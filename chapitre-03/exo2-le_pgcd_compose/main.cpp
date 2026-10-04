@@ -9,7 +9,7 @@ long long pgcd(long long a, long long b){
     long long r=1;
     a= vabs(a);
     b= vabs(b);
-    if (a == 0 || b== 0=){
+    if (a == 0 || b == 0){
         return 0;
     }
     while(b!=0){
@@ -36,11 +36,6 @@ bool UnCouple = false;
         printf("%lld\n", ppcm(a,b));
     }
     if (!UnCouple){
-        printf("AUCUN\n");
-    }
-    return 0;
-
-}
         printf("AUCUN\n");
     }
     return 0;
