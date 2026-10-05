@@ -1,4 +1,4 @@
-#include<cstdio>
+exo4-compter_et_sommer_en_recursif#include<cstdio>
 int chiffresRecursif(int n){
     if(n<10){
         return 1;
