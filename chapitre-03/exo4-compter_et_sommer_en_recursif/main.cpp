@@ -1,4 +1,5 @@
 #include<cstdio>
+#include <cmath> 
 int chiffresRecursif(int n){
     if(n<10){
         return 1;
@@ -20,6 +21,7 @@ if(n<10){
     int s;
     int c;
     scanf("%d",&n);
+    n = abs(n); 
         c=chiffresRecursif(n);
     s=sommeChiffresRecursif(n);
 
