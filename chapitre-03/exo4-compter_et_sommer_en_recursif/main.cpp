@@ -8,8 +8,8 @@ int chiffresRecursif(int n){
     
 }
 int sommeChiffresRecursif(int n){
-if(n==0){
-        return 0;
+if(n<10){
+        return n;
     }
     else{
         return (n%10)+sommeChiffresRecursif(n/10);
@@ -17,9 +17,13 @@ if(n==0){
  }
  int main(){
     int n;
-    int b;
+    int s;
+    int c;
     scanf("%d",&n);
-    n=sommeChiffresRecursif(n);
-    printf("%d",n);
+        c=chiffresRecursif(n);
+    s=sommeChiffresRecursif(n);
+
+    printf("%d\n",c);
+    printf("%d",s);
     return 0;
  }
