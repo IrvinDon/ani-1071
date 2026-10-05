@@ -1,0 +1,15 @@
+Ce que j'ai mis dans le .h :
+#include <cstdio>
+#include <cmath>
+#ifndef AIRE_H
+#define AIRE_H
+#define AIRE_H
+#endif
+
+double aireRectangle(double longueur, double largeur);
+double aireDisque(double rayon);
+double aireTriangle(double longueur, double largeur);
+ Ce qui se passe si j'enleve la garde : 
+ le programme va compiler et s'exécuter normalement, même sans la garde. On suppose que sur des projets plus gros ceci ne sera plus le cas.
+ Pourquoi main.cpp compile sans voir le corps des fonctions :
+ Parce que les fichiers contenant le corps de ces fonctions ont ete inclus dans le fichier main
