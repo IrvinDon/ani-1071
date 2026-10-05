@@ -8,7 +8,6 @@ int chiffresRecursif(int n){
         return 1 + chiffresRecursif(n / 10);
     }
 }
-
 int sommeChiffresRecursif(int n){
     if(n < 10){
         return n;
@@ -20,11 +19,12 @@ int sommeChiffresRecursif(int n){
 int main(){
     int n;
     // Compteur pour savoir si on a lu au moins un nombre
-    int nbEntrees lues = 0; 
+    int nbEntrees;
+    int nbEntrees =0;
 
     // La boucle continue tant que scanf réussit à lire un entier
     while (scanf("%d", &n) == 1) {
-        nbEntrees lues++;
+        nbEntrees++;
 
         // Traitement de la valeur absolue
         int n_positif = abs(n);
@@ -37,7 +37,7 @@ int main(){
     }
 
     // Si la boucle n'a jamais tourné (aucune entrée fournie)
-    if (nbEntrees lues == 0) {
+    if (nbEntrees == 0) {
         printf("AUCUN\n");
     }
 
