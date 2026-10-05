@@ -20,7 +20,6 @@ if(n==0){
     int b;
     scanf("%d",&n);
     n=sommeChiffresRecursif(n);
-     b=chiffresRecursif(n);
     printf("%d",n);
-     printf("%d",b);
+    return 0;
  }
