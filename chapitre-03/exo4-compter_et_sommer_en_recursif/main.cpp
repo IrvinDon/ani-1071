@@ -22,4 +22,5 @@ if(n==0){
     n=sommeChiffresRecursif(n);
      b=chiffresRecursif(n);
     printf("%d",n);
+     printf("%d",b);
  }
