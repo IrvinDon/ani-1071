@@ -1,4 +1,4 @@
-exo4-compter_et_sommer_en_recursif#include<cstdio>
+#include<cstdio>
 int chiffresRecursif(int n){
     if(n<10){
         return 1;
@@ -20,5 +20,6 @@ if(n==0){
     int b;
     scanf("%d",&n);
     n=sommeChiffresRecursif(n);
+     b=chiffresRecursif(n);
     printf("%d",n);
  }
