@@ -10,10 +10,10 @@ int main(){
     int t[5];
     int n=5;
     for(int i=0; i<n; i++){
-        scanf("%d", &t[i]);
-    }
-   if(n == 0){
-            printf("AUCUN\n");
+    scanf("%d", &t[i]);
+ }
+    if (n == 0) {
+        printf("AUCUN\n");
     }else{
         renverser(t,n);
     }
