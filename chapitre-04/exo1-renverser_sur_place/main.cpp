@@ -1,4 +1,11 @@
-int main() {
+#include<cstdio>
+void renverser(int t[], int n){
+for(int i=0; i<n/2; i++){
+int temp=t[n-1-i];
+t[n-1-i]=t[i];
+t[i]=temp;
+}
+}int main() {
     int t[100]; // On prévoit un tableau assez grand
     int n = 0;
 
