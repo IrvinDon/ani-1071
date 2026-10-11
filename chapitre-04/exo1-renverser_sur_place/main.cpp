@@ -9,7 +9,6 @@ t[i]=temp;
 int main(){
     int t[5];
     int n=5;
-    printf("Entrez les entiers : ");
     for(int i=0; i<n; i++){
         scanf("%d", &t[i]);
     }
